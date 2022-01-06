@@ -1,0 +1,13 @@
+ab_inbev_afr_sfmc.display:
+  route_name: ab_inbev_afr_sfmc.display
+  title: 'AB InBev'
+  description: 'Africa Salesforce Marketing Cloud Email Connector'
+  parent: system.admin_config
+  weight: -50
+
+ab_inbev_afr_sfmc_documentation.config:
+  route_name: ab_inbev_afr_sfmc_documentation.config
+  parent: ab_inbev_afr_sfmc.display
+  title: Documentation
+  description: 'SFMC Documentation'
+  weight: 1

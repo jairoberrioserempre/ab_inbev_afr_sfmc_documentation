@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * Implements hook_schema().
+ */
+function ab_inbev_afr_sfmc_documentation_schema() {
+  $schema = array();
+  $schema['ab_inbev_afr_sfmc_documentation'] = [
+    'fields' => [
+      'id' => [
+        'type' => 'serial',
+        'not null' => true,
+      ],
+      'created' => [
+        'type' => 'int',
+      ],
+      'updated' => [
+        'type' => 'int',
+      ],
+      'firstname' => [
+        'type' => 'varchar',
+        'length' => 80,
+      ],
+      'lastname' => [
+        'type' => 'varchar',
+        'length' => 80,
+      ],
+      'birthdate' => [
+        'type' => 'int',
+      ],
+      'email' => [
+        'type' => 'varchar',
+        'length' => 80,
+      ],
+      'phone' => [
+        'type' => 'varchar',
+        'length' => 20,
+      ],
+      'gender' => [
+        'type' => 'varchar',
+        'length' => 20,
+      ],
+      'terms_conditions_and_privacy_policy' => [
+        'type' => 'char',
+        'length' => 1,
+      ],
+      'marketing' => [
+        'type' => 'char',
+        'length' => 1,
+      ],
+    ],
+    'unique keys' => [
+      'uk_email' => array('email'),
+    ],
+    'primary key' => ['id'],
+    'indexes' => array(
+      'i_firstname' => array('firstname'),
+      'i_lastname' => array('lastname'),
+      'i_email' => array('email'),
+      'i_gender' => array('gender'),
+    ),
+  ];
+
+  return $schema;
+}

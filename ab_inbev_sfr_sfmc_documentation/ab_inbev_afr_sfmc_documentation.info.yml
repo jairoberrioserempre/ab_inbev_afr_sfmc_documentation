@@ -1,0 +1,6 @@
+name: 'Africa Salesforce Marketing Cloud Email Connector - Documentation'
+description: 'Africa Salesforce Marketing Cloud Email Connector - Documentation'
+package: AB InBev
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
