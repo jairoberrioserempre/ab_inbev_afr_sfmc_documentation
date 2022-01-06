@@ -5,9 +5,9 @@ ab_inbev_afr_sfmc.display:
   parent: system.admin_config
   weight: -50
 
-ab_inbev_afr_sfmc_documentation.config:
-  route_name: ab_inbev_afr_sfmc_documentation.config
+ab_inbev_afr_sfmc_sample_custom_form.config:
+  route_name: ab_inbev_afr_sfmc_sample_custom_form.config
   parent: ab_inbev_afr_sfmc.display
-  title: Documentation
-  description: 'SFMC Documentation'
+  title: Sample Custom Form
+  description: 'Sample custom form for SFMC (documentation)'
   weight: 1

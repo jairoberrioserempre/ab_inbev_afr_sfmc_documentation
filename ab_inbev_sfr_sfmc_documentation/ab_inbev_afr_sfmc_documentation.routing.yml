@@ -6,11 +6,11 @@ ab_inbev_afr_sfmc.display:
   requirements:
     _permission: 'access administration pages'
 
-ab_inbev_afr_sfmc_documentation.config:
-  path: /admin/config/ab-inbev/sfmc/documentation
+ab_inbev_afr_sfmc_sample_custom_form.config:
+  path: /admin/config/ab-inbev/sfmc/sample-custom-form
   defaults:
-    _title: 'Documentation'
-    _description: 'SFMC Documentation'
+    _title: 'Sample Custom Form'
+    _description: 'Sample custom form for SFMC (documentation)'
     _form: '\Drupal\ab_inbev_afr_sfmc_documentation\Form\DocumentationForm'
   requirements:
     _permission: 'access administration pages'

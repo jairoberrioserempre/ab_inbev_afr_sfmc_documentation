@@ -4,7 +4,6 @@ namespace Drupal\ab_inbev_afr_sfmc_documentation\Form;
 
 use Drupal;
 use Drupal\ab_inbev_afr_sfmc_documentation\Controller\DocumentationController;
-use Drupal\Core\Datetime\DrupalDateTime;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 
@@ -21,7 +20,7 @@ class DocumentationForm extends FormBase{
    * @return string The unique string identifying the form.
    */
   public function getFormId(){
-    return 'ab_inbev_afr_sfmc_documentation_form';
+    return 'ab_inbev_afr_sfmc_documentation_form'; // custom_form_id to use in SFMC.
   }
 
   /**
@@ -39,47 +38,47 @@ class DocumentationForm extends FormBase{
     // SFMC - Documentation.
     $form['sfmc']['documentation'] = [
       '#type' => 'details',
-      '#title' => 'AB-InBev - Salesforce Marketing Cloud Email Connector - Documentation',
+      '#title' => 'AB-InBev - Salesforce Marketing Cloud Email Connector - Sample Custom Form',
       '#open' => true,
     ];
 
     // Firstname.
-    $form['sfmc']['documentation']['firstname'] = [
+    $form['sfmc']['documentation']['firstname'] = [ // firstname: Field that you can use for the pairing between custom form and endpoint in SFMC.
       '#type' => 'textfield',
       '#title' => t('Firstname'),
       '#required' => true,
     ];
 
     // Lastname.
-    $form['sfmc']['documentation']['lastname'] = [
+    $form['sfmc']['documentation']['lastname'] = [ // lastname: Field that you can use for the pairing between custom form and endpoint in SFMC.
       '#type' => 'textfield',
       '#title' => t('Lastname'),
       '#required' => true,
     ];
 
     // Birthdate.
-    $form['sfmc']['documentation']['birthdate'] = [
+    $form['sfmc']['documentation']['birthdate'] = [ // birthdate: Field that you can use for the pairing between custom form and endpoint in SFMC.
       '#type' => 'date',
       '#title' => t('Birthdate'),
       '#required' => true,
     ];
 
     // Email.
-    $form['sfmc']['documentation']['email'] = [
+    $form['sfmc']['documentation']['email'] = [ // email: Field that you can use for the pairing between custom form and endpoint in SFMC.
       '#type' => 'email',
       '#title' => t('Email'),
       '#required' => true,
     ];
 
     // Phone.
-    $form['sfmc']['documentation']['phone'] = [
+    $form['sfmc']['documentation']['phone'] = [ // phone: Field that you can use for the pairing between custom form and endpoint in SFMC.
       '#type' => 'textfield',
       '#title' => t('Phone'),
       '#required' => true,
     ];
 
     // Gender.
-    $form['sfmc']['documentation']['gender'] = [
+    $form['sfmc']['documentation']['gender'] = [ // gender: Field that you can use for the pairing between custom form and endpoint in SFMC.
       '#type' => 'select',
       '#title' => t('Gender'),
       '#empty_option'  => t('- Select -'),
@@ -92,14 +91,14 @@ class DocumentationForm extends FormBase{
     ];
 
     // Terms & conditions and privacy policy.
-    $form['sfmc']['documentation']['terms_conditions_and_privacy_policy'] = [
+    $form['sfmc']['documentation']['terms_conditions_and_privacy_policy'] = [ // terms_conditions_and_privacy_policy: Field that you can use for the pairing between custom form and endpoint in SFMC.
       '#type' => 'checkbox',
       '#title' => t('I accept the <a href="/ab-inbev/sfmc/terms-and-conditions.pdf" target="_blank">Terms & Conditions</a> and the <a href="/ab-inbev/sfmc/terms-and-conditions.pdf" target="_blank">Privacy Policy</a>.'),
       '#required' => true,
     ];
 
     // Marketing.
-    $form['sfmc']['documentation']['marketing'] = [
+    $form['sfmc']['documentation']['marketing'] = [ // marketing: Field that you can use for the pairing between custom form and endpoint in SFMC.
       '#type' => 'checkbox',
       '#title' => t('Please send me information on future events and promotions.'),
     ];

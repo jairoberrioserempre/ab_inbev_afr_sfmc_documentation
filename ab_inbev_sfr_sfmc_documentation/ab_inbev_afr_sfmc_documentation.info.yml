@@ -1,6 +1,8 @@
-name: 'Africa Salesforce Marketing Cloud Email Connector - Documentation'
-description: 'Africa Salesforce Marketing Cloud Email Connector - Documentation'
+name: 'Africa Salesforce Marketing Cloud Email Connector - Sample Custom Form'
+description: 'Africa Salesforce Marketing Cloud Email Connector - Sample Custom Form'
 package: AB InBev
 type: module
 core: 8.x
 core_version_requirement: ^8 || ^9
+dependencies:
+  - ab_inbev_afr_sfmc
