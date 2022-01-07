@@ -2,7 +2,7 @@
 
 <br><b>Important:</b> You must have the <em>Africa Salesforce Marketing Cloud Email Connector</em> module previously installed.
 
-<br><b>1-</b> Download or clone the repository in your site, then install, in your site administratio go to <em>/admin/modules</em> (Menu: <em>Extend</em>), filter by <em>Africa Salesforce Marketing Cloud Email Connector - Sample Custom Form</em> and click on <em>Install</em>.
+<br><b>1-</b> Download or clone the repository in your site, then install, in your site administration go to <em>/admin/modules</em> (Menu: <em>Extend</em>), filter by <em>Africa Salesforce Marketing Cloud Email Connector - Sample Custom Form</em> and click on <em>Install</em>.
 
 <b>2-</b> Go to <em>/admin/config/ab-inbev/sfmc/data/create</em> (Menu: <em>Configuration - AB InBev - SFMC</em>, then click <em>Create SFMC</em>).
 
