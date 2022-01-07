@@ -37,4 +37,7 @@ You must send the email in the <em>Address</em> and <em>SubscriberKey</em> field
 <b>8-</b> Go to <em>/admin/config/ab-inbev/sfmc/sample-custom-form</em> (Menu: <em>Configuration - AB InBev - Sample Custom Form</em>), enter the data and then click <em>Register</em>.
 
 <b>9-</b> If you have active the endpoint log record, go to <em>/admin/reports/dblog</em> (Menu: <em>Reports - Recent log messages</em>), filter by <em>ab_inbev_afr_sfmc_message_definition_sends</em>, click <em>Filter</em> and you will see the information that was sent to the enpoint with the data entered in the form (which you paired in the SMFC).
-<br><b>Note:</b> You can verify if the log is active in <em>/admin/config/ab-inbev/sfmc/endpoints</em> (Menu: <em>Configuration - AB InBev - Endpoints</em>), there you will see the list of existing endpoints with the information of each one, in the <em>Actions</em> column you can click <em>Edit</em> and change the information of the endpoint you want.
+
+<b>Note 1:</b> You can verify if the log is active in <em>/admin/config/ab-inbev/sfmc/endpoints</em> (Menu: <em>Configuration - AB InBev - Endpoints</em>), there you will see the list of existing endpoints with the information of each one, in the <em>Actions</em> column you can click <em>Edit</em> and change the information of the endpoint you want.
+
+<b>Note 2:</b> if you want to modify an SFMC, go to <em>/admin/config/ab-inbev/sfmc/data</em> (Menu: <em>Configuration - AB InBev - SFMC</em>), there you will see the list of existing SFMC's with the information of each one, in the <em>Actions</em> column you can click <em>Edit</em> and change the information of the SFMC you want.
